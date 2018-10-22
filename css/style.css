@@ -1,0 +1,63 @@
+body {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    border: 1px gray solid;
+    text-align: center;
+}
+
+.nav {
+    display: inline-block;
+    list-style-type: none;
+    width: 10%;
+    border: 1px green solid;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.inlineTable {
+    display: inline-table;
+}
+
+.baseBox {
+    width: 200px;
+    height: 120px;
+    margin: 5px;
+}
+
+span {
+    vertical-align: middle;
+ }
+
+.longBox {
+    width: 420px;
+}
+
+.highBox {
+    height: 260px;
+}
+
+.logoBox {
+    height: 65px;
+}
+
+.shortBox {
+    height: 35px;
+}
+
+.smallBox {
+    width: 125px;
+}
+
+.row {
+    display: flow;
+}
+
+.spotlight {
+    width: 120px;
+}
