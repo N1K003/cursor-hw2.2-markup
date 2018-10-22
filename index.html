@@ -6,32 +6,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <header>
-    <div>
-        <div class="inlineTable baseBox"><span>ADVERTISEMENT</span></div>
-        <div class="inlineTable">
-            <div class="row baseBox longBox logoBox"><span>IMDb LOGO</span></div>
-            <div class="row">
-                <div class="inlineTable baseBox shortBox smallBox"><span>Box Office Mojo</span></div>
-                <div class="inlineTable baseBox shortBox smallBox"><span>IMDb Pro</span></div>
-                <div class="inlineTable baseBox shortBox smallBox"><span>IMDb Resume</span></div>
+    <div class="row">
+        <div class="box baseBox crossedBox">ADVERTISEMENT</div>
+        <div class="longBox">
+            <div class="row box baseBox logoBox">IMDb LOGO</div>
+            <div class="row shortBox">
+                <div class="box baseBox shortBox smallBox greyBackground">Box Office Mojo</div>
+                <div class="box baseBox shortBox smallBox greyBackground">IMDb Pro</div>
+                <div class="box baseBox shortBox smallBox greyBackground">IMDb Resume</div>
             </div>
         </div>
-        <div class="inlineTable baseBox"><span>ADVERTISEMENT</span></div>
+        <div class="box baseBox">ADVERTISEMENT</div>
     </div>
-    <div>
-        <nav>
-            <ul>
-                <li class="nav"><a href="#"><span>MOVIES</span></a></li>
-                <li class="nav"><a href="#"><span>TV</span></a></li>
-                <li class="nav"><a href="#"><span>NEWS</span></a></li>
-                <li class="nav"><a href="#"><span>VIDEOS</span></a></li>
-                <li class="nav"><a href="#"><span>TRIVIA</span></a></li>
-            </ul>
+    <div class="navigation">
+        <nav class="row">
+            <a href="#" class="box navigationElement greyBackground">MOVIES</a>
+            <a href="#" class="box navigationElement greyBackground">TV</a>
+            <a href="#" class="box navigationElement greyBackground">NEWS</a>
+            <a href="#" class="box navigationElement greyBackground">VIDEOS</a>
+            <a href="#" class="box navigationElement greyBackground">TRIVIA</a>
         </nav>
     </div>
-    <div>
-        <form class="search" action="#">
+    <div class="search">
+        <form class="row" action="#">
             <label>Search</label>
             <input type="text" name="searchText">
             <input type="button" value="GO">
@@ -41,33 +40,32 @@
 </header>
 
 <main>
-    <div>
-        <div class="inline main">
-            <div class="spotlight">Video Spotlight</div>
-            <div class="row">
-                <div class="inline baseBox">MOVIES</div>
-                <div class="inline baseBox">TV</div>
-                <div class="inline baseBox">DVD/Blu-ray</div>
-                <div class="inline baseBox">NEWS</div>
+    <div class="row box spotlight">Video Spotlight</div>
+    <div class="main">
+        <div class="row">
+            <div class="box baseBox">MOVIES</div>
+            <div class="box baseBox">TV</div>
+            <div class="box baseBox">DVD/Blu-ray</div>
+            <div class="box baseBox">NEWS</div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="box baseBox darkGrayBox">Tops at<br/>the Box Office</div>
+                <div class="box baseBox darkGrayBox">Opening<br/>This Week</div>
             </div>
-            <div class="row">
-                <div class="inline" style="display: inline-table">
-                    <div class="baseBox">Tops at the Box Office</div>
-                    <div class="baseBox">Opening This Week</div>
-                </div>
-                <div class="inline baseBox longBox highBox" style="display: inline-table">News</div>
-                <div class="inline" style="display: inline-table">
-                    <div class="baseBox">Photo Gallery</div>
-                    <div class="baseBox">Birthdays</div>
-                </div>
+            <div class="box baseBox longBox highBox darkGrayBox">News</div>
+            <div class="column">
+                <div class="box baseBox">Photo<br/>Gallery</div>
+                <div class="box baseBox darkGrayBox">Birthdays</div>
             </div>
-            <div class="row">
-                <div class="inline baseBox">New on DVD/Blu-Ray</div>
-                <div class="inline baseBox longBox">ADVERTISEMENT</div>
-                <div class="inline baseBox">Trivia</div>
-            </div>
+        </div>
+        <div class="row">
+            <div class="box baseBox darkGrayBox">New on<br/>DVD/Blu-Ray</div>
+            <div class="box baseBox longBox">ADVERTISEMENT</div>
+            <div class="box baseBox darkGrayBox">Trivia</div>
         </div>
     </div>
 </main>
+
 </body>
 </html>

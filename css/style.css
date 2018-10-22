@@ -4,60 +4,105 @@ body {
     margin-right: auto;
 }
 
-div {
-    border: 1px gray solid;
-    text-align: center;
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: auto;
 }
 
-.nav {
-    display: inline-block;
-    list-style-type: none;
-    width: 10%;
-    border: 1px green solid;
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    flex-grow: 1;
+    margin: auto;
 }
 
-.inline {
-    display: inline-block;
-}
-
-.inlineTable {
-    display: inline-table;
-}
-
-.baseBox {
-    width: 200px;
-    height: 120px;
+.navigation {
     margin: 5px;
 }
 
-span {
-    vertical-align: middle;
- }
+.search {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: lightsteelblue;
+}
+
+.search input[type="text"] {
+    width: 60%;
+    margin: 5px;
+}
+
+.advancedSearch {
+    align-self: end;
+}
+
+.greyBackground {
+    background-color: grey;
+}
+
+.navigationElement {
+    list-style-type: none;
+    font-size: x-large;
+}
+
+.navigationElement + a:visited,
+.navigationElement + a:hover,
+.navigationElement + a:link,
+.navigationElement + a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.box {
+    flex-grow: 1;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.baseBox {
+    margin: 5px;
+    height: 120px;
+    background-color: lightgray;
+}
+
+.darkGrayBox {
+    background-color: dimgrey;
+}
 
 .longBox {
-    width: 420px;
+    flex-grow: 1.5;
 }
 
 .highBox {
-    height: 260px;
+    height: 240px;
 }
 
 .logoBox {
-    height: 65px;
+    height: 60%;
 }
 
 .shortBox {
-    height: 35px;
+    height: 47%;
 }
 
 .smallBox {
-    width: 125px;
-}
-
-.row {
-    display: flow;
+    flex-grow: 0.333333333;
 }
 
 .spotlight {
     width: 120px;
+    align-self: baseline;
+    margin: 0px 0px 0px 5px;
+    background-color: lightsteelblue;
+    border-bottom: none;
+    height: 20px;
+}
+
+.main {
+    margin-top: -5px;
 }
