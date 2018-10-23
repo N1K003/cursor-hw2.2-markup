@@ -6,7 +6,6 @@ body {
 
 .row {
     display: flex;
-    flex-direction: row;
     flex-basis: 100px;
     flex-grow: 1;
     margin: auto;
@@ -58,6 +57,7 @@ body {
 }
 
 .box {
+    display: flex;
     flex-grow: 1;
     border: 1px black solid;
     justify-content: center;
@@ -97,7 +97,7 @@ body {
 .spotlight {
     width: 120px;
     align-self: baseline;
-    margin: 0px 0px 0px 5px;
+    margin: 0 0 0 5px;
     background-color: lightsteelblue;
     border-bottom: none;
     height: 20px;
