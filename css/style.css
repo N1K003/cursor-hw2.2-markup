@@ -67,11 +67,11 @@ body {
 .baseBox {
     margin: 5px;
     height: 120px;
-    background-color: lightgray;
+    background-color: #cccccc;
 }
 
 .darkGrayBox {
-    background-color: dimgrey;
+    background-color: #aaaaaa;
 }
 
 .longBox {
