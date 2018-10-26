@@ -151,11 +151,19 @@ a:link, a:hover, a:visited, a:active {
 }
 
 .page .main .spotlight {
+  margin-bottom: 0;
+}
+
+.page .main .spotlight .spotlight-item {
   width: 150px;
   height: 100%;
   margin-left: 63px;
-  border: black 1px solid;
+  border: none;
   background: #c0c0c0;
+}
+
+.page .main .after-spotlight {
+  margin-top: 0px;
 }
 
 .page .main .main-block {

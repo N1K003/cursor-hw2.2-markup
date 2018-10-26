@@ -140,11 +140,17 @@ a:link, a:hover, a:visited, a:active {
     width: $default-container-width;
     margin-bottom: $default-container-margin-bottom;
     .spotlight {
-      width: 150px;
-      height: 100%;
-      margin-left: $default-left-margin;
-      border: $default-item-border;
-      background: $semi-dark-gray;
+      margin-bottom: 0;
+      .spotlight-item {
+        width: 150px;
+        height: 100%;
+        margin-left: $default-left-margin;
+        border: none;
+        background: $semi-dark-gray;
+      }
+    }
+    .after-spotlight {
+      margin-top: 0px;
     }
     .main-block {
       display: flex;
