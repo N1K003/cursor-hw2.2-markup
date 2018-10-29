@@ -30,6 +30,11 @@ a:link, a:hover, a:visited, a:active {
   font-weight: bold;
 }
 
+.cross-bg {
+  background-image: url("../images/cross.png");
+  background-size: cover;
+}
+
 .page {
   $spacing: 5px;
   margin: auto;
@@ -150,7 +155,7 @@ a:link, a:hover, a:visited, a:active {
       }
     }
     .after-spotlight {
-      margin-top: 0px;
+      margin-top: 0;
     }
     .main-block {
       display: flex;

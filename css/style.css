@@ -22,6 +22,11 @@ a:link, a:hover, a:visited, a:active {
   font-weight: bold;
 }
 
+.cross-bg {
+    background-image: url("../images/cross.png");
+    background-size: cover;
+}
+
 .page {
   margin: auto;
   height: 100%;
@@ -163,7 +168,7 @@ a:link, a:hover, a:visited, a:active {
 }
 
 .page .main .after-spotlight {
-  margin-top: 0px;
+    margin-top: 0;
 }
 
 .page .main .main-block {
